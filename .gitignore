@@ -1,0 +1,6 @@
+.vagrant/
+www/*
+!www/.gitkeep
+!www/index.php
+log/*
+!log/.gitkeep

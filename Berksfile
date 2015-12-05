@@ -1,0 +1,10 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'selinux', '~> 0.9.0'
+cookbook 'apt', '~> 2.9.2'
+cookbook 'curl', '~> 2.0.1'
+cookbook 'git', '~> 4.3.4'
+cookbook 'apache2', '~> 3.1.0'
+cookbook 'iptables', '~> 2.0.1'
+cookbook 'setup', path: 'site-cookbooks/setup'
+cookbook 'cook_php5', path: 'site-cookbooks/cook_php5'
